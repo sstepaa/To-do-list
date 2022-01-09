@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List | Sweech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/04558de784.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content">
+        <!-- Primer bloque Flex -->
+        <header>
+            <div class="content-date-refresh">
+                <div class="date">
+                </div>
+    
+                <div class="clear">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Segundo BLoque flex -->
+        <form class="formulario">
+            <button class="btn-form" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+            <input type="text" class="form-input" placeholder="Agregue su tarea">
+            <button class="btn-delete">
+                <i class="fas fa-trash"></i>
+            </button>
+        </form>
+
+        <!-- Tercer Bloque flex -->
+        <div class="todo-conteiner">
+            <ul class="todo-list" id="list">
+                
+            </ul>
+        </div>
+
+         <!-- Cuarto bloque -->
+        <div class="empty">
+            <p>no hay tareas pendientes</p>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
