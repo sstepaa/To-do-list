@@ -29,8 +29,7 @@ body{
 
 @media (max-width: 650px){
     .content{
-        max-width: 27rem;
-        width: 100%;
+        width: 23rem;
     }
 }
 
@@ -51,7 +50,7 @@ header{
 
 @media (max-width: 650px){
     header{
-        width: 27rem;
+        width: 23rem;
     }
 }
 
@@ -100,7 +99,7 @@ header{
 
 @media (max-width: 650px){
     .formulario{
-        max-width: 29rem;
+        max-width: 23rem;
     }
 }
 
@@ -117,7 +116,7 @@ header{
 }
 @media (max-width: 650px){
     .formulario input{
-        width:20rem ;
+        width:15rem ;
     }   
 }
 
